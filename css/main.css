@@ -47,7 +47,7 @@
 header {
   background:#2C3E50;
   width: 100%;
-  height: 100px;
+  height: 90px;
   position: fixed;
 
 }
@@ -60,6 +60,7 @@ header {
   color: #FFF;
   font-weight: 900;
   text-decoration: none;
+  display: inline-block;
 }
 
 .title {
@@ -78,7 +79,7 @@ header {
   font-size: 18px;
   left: 50%;
   margin-left: 34px;
-  padding: 42px 10px;
+  padding: 32px 10px;
   position: relative;
 
 }
@@ -87,7 +88,7 @@ header {
 }
 
 /*--------primera seccion------*/
-.first {
+#first {
   width: 100%;
   background-color: #18BC9C;
   color: #FFF;
@@ -96,10 +97,10 @@ header {
 
 
 }
-.first img {
+#first img {
   margin-top: 150px;
 }
-.first  h1  {
+#first  h1  {
   text-align: center;
   font-weight: 900;
   font-size: 50px;
@@ -107,7 +108,7 @@ header {
   margin-top: 10px;
 }
 
-.first h3 {
+#first h3 {
   text-align: center;
   margin-top: 20px;
   font-size: 20px;
@@ -115,14 +116,14 @@ header {
   font-family: 'Montserrat';
 
 }
-.first hr {
+#first hr {
   width: 70px;
   border: 3px solid #FFF;
   display: inline-block;
   margin-top: 30px;
 }
 
-.first .fa-star {
+#first .fa-star {
   background-color: #18BC9C;
   display: inline;
   padding: 7px;
@@ -130,30 +131,30 @@ header {
 }
 
 /*--------segunda seccion------*/
-.second {
+#second {
   width: 100%;
   background-color: #fff;
   text-align: center;
   font-family: 'Montserrat';
 
 }
-.second  h1  {
+#second  h1  {
   text-align: center;
   font-weight: 900;
-  font-size: 25px;
+  font-size: 35px;
   font-family: sans-serif;
-  padding-top: 70px;
+  padding-top: 100px;
   color: #212529;
 }
 
-.second hr {
+#second hr {
   width: 70px;
   border: 3px solid #2C3E50;;
   display: inline-block;
   margin-top: 30px;
 }
 
-.second .fa-star {
+#second .fa-star {
   color:#2C3E50;
   display: inline;
   padding: 7px ;
@@ -162,6 +163,7 @@ header {
 /*contenedor de imagenes*/
 .container{
   display: inline-block;
+  padding-bottom: 30px;
  }
 
 .img-2 {
@@ -172,15 +174,15 @@ header {
 }
 
 /*-----Tercera sección------*/
-.third {
+#third {
   background-color: #18BC9C;
   color: #FFF;
-  padding-top: 60px;
+  padding-top: 100px;
   width: 100%;
   text-align: center;
   font-family: 'Montserrat';
   font-family: sans-serif;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   height: 600px;
 }
 
@@ -229,14 +231,14 @@ header {
   width: 200px;
 }
 
-.third hr {
+#third hr {
   width: 70px;
   border: 3px solid #FFF;;
   display: inline-block;
   margin-top: 30px;
 }
 
-.third .fa-star {
+#third .fa-star {
   color:#FFF;
   display: inline;
   padding: 7px ;
@@ -245,22 +247,23 @@ header {
 
 
 /*-----Cuarta Sección----*/
-.fourth {
-  height: 600px;
+#fourth {
+  height: 550px;
   font-family: 'Montserrat';
   font-family: sans-serif;
-  font-size: 30px;
-  padding-top: 50px;
+  font-size: 25px;
+  padding-top: 100px;
+  text-align: center;
   width: 100%;
 }
-.fourth hr {
+#fourth hr {
   width: 70px;
-  border: 2px solid #2C3E50;;
+  border: 2px solid #2C3E50;
   display: inline-block;
   margin-top: 30px;
 }
 
-.fourth .fa-star {
+#fourth .fa-star {
   color:#2C3E50;
   display: inline;
   padding: 7px ;
@@ -275,7 +278,7 @@ header {
 
 input {
   font-family: 'Lato', sans-serif;
-  font-size: 30px;
+  font-size: 26px;
   height: 44px;
   border-bottom-color: #eee;
   border-top-color: transparent;
@@ -307,10 +310,10 @@ button:hover {
   background-color: #128f76;
 }
 
-/*Quinta sección*/
+/*----------Quinta sección--------*/
 
 .fiveth{
-  height: 120px;
+  height: 250px;
   background-color:#2C3E50;
 
 }
@@ -321,7 +324,7 @@ button:hover {
   color: #FFF;
   float: left;
   font-family: 'Montserrat', sans-serif;
-  padding: 1px 15px;
+  padding: 50px 15px;
   padding-left: 8%;
   text-align: center;
   width: 25%;
@@ -329,7 +332,7 @@ button:hover {
 
 .social-media {
   display: inline-block;
-  padding: 1px 15px;
+  padding: 50px 15px;
   width: 333px;
   color: #fff;
 }
@@ -338,7 +341,7 @@ button:hover {
   display: inline-block;
   float: right;
   font-family: 'Montserrat', sans-serif;
-  padding: 1px 15px;
+  padding: 50px 15px;
   margin-right: 3%;
   width: 303px;
   color: #fff;
@@ -382,14 +385,16 @@ a {
   display: block;
   color: #FFF;
 }
+
+/*-------footer----------*/
 footer {
   background-color:#2C3E50;
-  height: 15px;
+  height: 30px;
 }
 h5 {
   background-color: #2c3e50;
   color: #FFF;
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Lato', sans-serif;
   position: relative;
 
